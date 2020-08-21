@@ -1,0 +1,154 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+img {
+  max-width: 100%;
+}
+  
+  .bg {
+    /* The image used */
+    background-image: url("img/background_apa.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  ul.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    display: block;
+  }
+
+  ul.nav li {
+    display: inline-block;
+  }
+
+  ul.nav li a {
+    color: #ffad2c;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1px 10px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  ul.nav li a:hover {
+    text-decoration: underline;
+  }
+
+  ul.nav li:first-child a {
+    border-right: 1px solid #ffad2c;
+  }
+
+.logo-left {
+  text-align: center;
+}
+
+.logo-left h1 {
+  color: #000000;
+}
+
+.logo {
+  margin-top: 30px;
+}
+
+.bottom-right{
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+  color: #3b7ab9;
+}
+
+
+/* Responsive Style  */
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .logo-left h1 {
+    color: #000000;
+}
+.logo-left {
+  margin-top: 50px;
+}
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .logo-left h1 {
+    color: #000000;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.bg {
+  /* The image used */
+  background-image: url("img/background_apa.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .logo-left h1 {
+    color: #000000;
+}
+.container {
+  width: 760px;
+}
+.bottom-right {
+  right: 3px;
+}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  .logo-left h1 {
+    color: #000000;
+}
+.container {
+  width: 100%;
+}
+.bottom-right {
+  right: 10px;
+}
+
+.bg {
+  background: none;
+}
+.logo-left {
+  margin-top: 10px;
+}
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .container {
+    width: 100%;
+  }
+  .logo-left {
+}
+  .mobile-image img{
+    width: 60%;
+}
+  .logo-left h1 {
+    color: #000000;
+    color: red;
+}
+.bottom-right {
+  right: 10px;
+  width: 100%;
+  text-align: center;
+}
+}
