@@ -127,28 +127,45 @@ img {
 .bg {
   background: none;
 }
-.logo-left {
-  margin-top: 10px;
-}
-}
 
-/* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .container {
-    width: 100%;
-  }
-  .logo-left {
+.text-xs-center {
+  display: block;
 }
-  .mobile-image img{
-    width: 60%;
+.logo-left h1 {
+  font-size: 2rem;
 }
-  .logo-left h1 {
-    color: #000000;
-    color: red;
+.mobile-image img{
+  width: 40%;
 }
 .bottom-right {
   right: 10px;
   width: 100%;
   text-align: center;
+}
+.header_area {
+  background: #f7f1ee;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.logo-left img {
+  width: 45%;
+}
+}
+
+/* Subroto Now // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+.container {
+    width: 100%;
+}
+.logo-left {
+}
+.mobile-image img{
+    width: 60%;
+}
+.logo-left h1 {
+    color: #000000;
+}
+.logo-left img {
+  width: 40%;
 }
 }
